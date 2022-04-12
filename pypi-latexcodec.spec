@@ -4,7 +4,7 @@
 #
 Name     : pypi-latexcodec
 Version  : 2.0.1
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/84/2f/fd47712130b303ff179c819cc5c63aa39586fc8d430bc299c0f5f56ec42c/latexcodec-2.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/84/2f/fd47712130b303ff179c819cc5c63aa39586fc8d430bc299c0f5f56ec42c/latexcodec-2.0.1.tar.gz
 Summary  : A lexer and codec to work with LaTeX code in Python.
@@ -14,9 +14,6 @@ Requires: pypi-latexcodec-license = %{version}-%{release}
 Requires: pypi-latexcodec-python = %{version}-%{release}
 Requires: pypi-latexcodec-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: latexcodec
-Provides: latexcodec-python
-Provides: latexcodec-python3
 BuildRequires : pypi(six)
 
 %description
@@ -62,7 +59,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641453114
+export SOURCE_DATE_EPOCH=1649779081
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
