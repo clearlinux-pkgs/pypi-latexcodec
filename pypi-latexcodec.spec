@@ -4,7 +4,7 @@
 #
 Name     : pypi-latexcodec
 Version  : 2.0.1
-Release  : 25
+Release  : 26
 URL      : https://files.pythonhosted.org/packages/84/2f/fd47712130b303ff179c819cc5c63aa39586fc8d430bc299c0f5f56ec42c/latexcodec-2.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/84/2f/fd47712130b303ff179c819cc5c63aa39586fc8d430bc299c0f5f56ec42c/latexcodec-2.0.1.tar.gz
 Summary  : A lexer and codec to work with LaTeX code in Python.
